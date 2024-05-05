@@ -1,0 +1,242 @@
+
+
+nav ul .nav-hover  {
+    position: relative;
+    text-align: center;
+}
+
+nav ul .nav-hover a:before {
+    content: '';
+    width: 0;
+    height: 5px;
+    background: #f00e0e;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: .5s;
+}
+
+nav ul .nav-hover:hover a::before {
+    width:50%;
+    transform: translateX(100%);
+}
+
+nav div a img {
+    max-width: 50px;
+}
+
+.table-body{
+    border-top: 2px #f00e0e !important;
+}
+
+
+
+
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+.pt-5 {
+    padding-top: 3rem !important;
+}
+.my-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+.border-0 {
+    border: 0 !important;
+}
+.position-relative {
+    position: relative !important;
+}
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+}
+.card {
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: .25rem;
+}
+
+.member-profile {
+    top: -50px;
+    left: 0;
+}
+.text-center {
+    text-align: center !important;
+}
+.w-100 {
+    width: 100% !important;
+}
+.position-absolute {
+    position: absolute !important;
+}
+
+.member-profile img {
+    width: 100px;
+    height: 100px;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+}
+
+.member-name{
+color: red!important;
+}
+
+.conference-header{
+    text-align: center;
+}
+
+.conference-header h1{
+    color: #f00e0e;
+}
+.Team-header h1{
+    color: white;
+    /* Created with https://www.css-gradient.com */
+background: #FC1A40;
+background: -webkit-linear-gradient(top left, #FC1A40, #CC385E);
+background: -moz-linear-gradient(top left, #FC1A40, #CC385E);
+background: linear-gradient(to bottom right, #FC1A40, #CC385E);
+text-align: center;
+margin-bottom: 30px;
+}
+.conference-header p{
+    color: #f00e0e80;
+}
+.conference-header hr{
+    border: #f00e0e 1px solid;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("MainPage/Primary.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    position: absolute;
+    color: #f00e0e;
+    text-align: center;
+    margin: 300px 200px;
+    padding: 10px 10px;
+    background-color: transparent;
+    width: 220px;
+    height: 90px;
+    background-color: white;
+  }
+
+@media only screen and (max-width: 850px) {
+     .parallax{
+        max-height: 500px; 
+        background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     }
+     .col-md-5 img {
+        width: 350px;
+        height: 400px;
+     }
+     iframe{
+        max-width: 340px;
+     }
+     .parallax{
+        display: none;
+     }
+     .not-parrallax{
+        display: unset;
+     }
+     .team-card{
+        height: 490px !important;
+     }
+  }
+@media only screen and (min-width: 900px) {
+     .parallax{
+        max-height: 500px; 
+    background-size: cover;
+     }
+     .col-md-5 img {
+        width: 450px;
+        height: 500px;
+     }
+      /* .last-row {
+         margin-left: 200px; 
+     }  */
+     
+     .not-parrallax{
+        display: none;
+     }
+  }
+
+
+  .hover-footer a  :hover{
+    color: #f00e0e !important; 
+  }
+
+
+  /* .card-content a {
+    background-color: #f00e0e;
+  } */
+
+  .card-wrapper{
+    margin-top: 15px;
+  }
+
+  .card-img-top{
+    height: 220px !important;
+    object-fit: cover;
+  }
+
+  .card-disc{
+    text-align: justify;
+  }
+
+  .team-card{
+    height: 450px !important;
+  }
+
+  .team-card-wide{
+    height: 305px;
+  }
+
+  .Read-More{
+    position: relative;
+    margin: auto;
+    padding: 0;
+  }
+
+  .modal-body{
+    text-align: justify;
+  }
+
+  .card-text{
+    font-size: 15px;
+  }
